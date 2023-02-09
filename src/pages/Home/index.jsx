@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-import Button1 from '../../components/Button/Button_1';
+// import Button1 from '../../components/Button/Button_1';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -7,9 +9,9 @@ export default function Home() {
   }, []);
 
   return (
-    <h1>
-      Hello world
-      <Button1 />
-    </h1>
+    <React.Fragment>
+      <Header />
+      <Footer />
+    </React.Fragment>
   );
 }
