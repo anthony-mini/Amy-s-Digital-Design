@@ -12,16 +12,12 @@ export default function Button1() {
   const pathname = window.location.pathname;
 
   return pathname === '/' ? (
-    <div>
-      <button onClick={handleClick} className="button button--1">
-        Free Consultation
-      </button>
-    </div>
+    <button onClick={handleClick} className="button button--1">
+      Free Consultation
+    </button>
   ) : (
-    <div>
-      <button onClick={handleClick} className="button button--1">
-        Homepage
-      </button>
-    </div>
+    <button onClick={handleClick} className="button button--1">
+      Homepage
+    </button>
   );
 }
