@@ -1,0 +1,39 @@
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+};
+
+// <h1 class="headling headling--L">Heading L</h1>
+// <h1 class="headling headling--M">Heading M</h1>
+// <h1 class="headling headling--S">Heading S</h1>
+
+.headling {
+    font: {
+        style: normal;
+        weight: 700;
+    };
+
+    color: $Black;
+  
+    &--L {
+      font-size: 56px;
+      line-height: 71px;
+    }
+  
+    &--M {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    &--S {
+      font-size: 32px;
+      line-height: 40px;
+    }
+};
+
+.paragraph {
+    font-style: normal;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $MediumBrown;
+};
