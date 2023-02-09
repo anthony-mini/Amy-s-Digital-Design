@@ -5,6 +5,10 @@ main {
     -moz-osx-font-smoothing: grayscale;
   }
 
+body {
+  background: $background-main-color;
+}
+
 
 body {
   text-align: -webkit-center;

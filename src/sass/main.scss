@@ -1,5 +1,8 @@
 @import './base/reset';
-@import './base/base';
 
 @import './utils/colors';
 @import './utils/typography';
+
+@import './base/base';
+
+@import '../components/Button/button';

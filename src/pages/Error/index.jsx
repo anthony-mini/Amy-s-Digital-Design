@@ -1,6 +1,6 @@
 import ErrorSvg from '../../assets/404-error-animate.svg';
 import React, { useEffect } from 'react';
-import Button from '../../components/Button-CTA';
+import Button2 from '../../components/Button/Button_2';
 
 export default function Error() {
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function Error() {
           infinity of the Internet
         </h1>
         <p>Return to the homepage by clicking on the button below.</p>
-        <Button />
+        <Button2 />
       </section>
     </main>
   );

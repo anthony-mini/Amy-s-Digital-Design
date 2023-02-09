@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Button from '../../components/Button-CTA';
+import Button1 from '../../components/Button/Button_1';
 
 export default function Home() {
   useEffect(() => {
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <h1>
       Hello world
-      <Button />
+      <Button1 />
     </h1>
   );
 }

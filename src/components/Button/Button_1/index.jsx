@@ -1,4 +1,6 @@
-export default function Button() {
+import React from 'react';
+
+export default function Button1() {
   function handleClick() {
     if (pathname === '/') {
       window.location.reload();
@@ -11,11 +13,15 @@ export default function Button() {
 
   return pathname === '/' ? (
     <div>
-      <button onClick={handleClick}>Free Consultation</button>
+      <button onClick={handleClick} className="button button--1">
+        Free Consultation
+      </button>
     </div>
   ) : (
     <div>
-      <button onClick={handleClick}>Homepage</button>
+      <button onClick={handleClick} className="button button--1">
+        Homepage
+      </button>
     </div>
   );
 }
