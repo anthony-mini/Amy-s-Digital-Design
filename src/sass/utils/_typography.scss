@@ -19,6 +19,11 @@
       font-size: 44px;
       line-height: 55px;
   }
+
+   @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+    font-size: 44px;
+    line-height: 55px;
+ }
   
 };
 

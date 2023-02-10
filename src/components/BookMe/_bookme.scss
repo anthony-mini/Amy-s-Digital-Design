@@ -10,6 +10,21 @@
        padding: 56px 75px 56px 75px;
     }
 
+    @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+        margin-top: 88px;
+        padding: 81px 95px 80px 95px;
+        display: flex;
+        align-items: center;
+     }
+
+    .BookMe-txt{
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+         }
+    }
+
     & h2 {
         font-style: normal;
         font-weight: 700;
@@ -22,6 +37,13 @@
            font-size: 32px;
            line-height: 40px;
         }
+
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            text-align: left;
+            font-size: 40px;
+            line-height: 50px;
+         }
     }
 
     & p {
@@ -35,6 +57,13 @@
         @media screen and (min-width: map-get($breakpoint, tablette)) {
             line-height: 28px;
             margin: 26px 50px 26px 50px;
+         }
+
+         @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            text-align: left;
+            padding-right: 100px;
+            margin-left: 0px;
+            font-size: 18px;
          }
     }
 }

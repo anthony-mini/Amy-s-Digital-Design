@@ -6,6 +6,9 @@
     @media screen and (min-width: map-get($breakpoint, tablette)) {
         margin-top: 64px;
     }
+    @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+        margin-top: 80px;
+    }
 }
 
 .Cube{
@@ -23,6 +26,16 @@
         width: 159px;
         height: 182px;
 
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            width: 155px;
+            height: 182px;
+        }
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            width: 164px;
+            height: 182px;
+        }
+
         & img {
             width: 64px;
             height: 64px;
@@ -33,6 +46,16 @@
         height: 158px;
         width: 343px;
 
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            width: 333px;
+            height: 158px;
+        }
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            width: 354px;
+            height: 158px;
+        }
+
         & img {
             width: 128px;
             height: 64px;
@@ -42,6 +65,16 @@
     &--L{
         width: 343px;
         height: 364px;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            width: 333px;
+            height: 364px;
+        }
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            width: 354px;
+            height: 364px;
+        }
 
         & img {
             width: 128px;
@@ -69,6 +102,13 @@
 
     &--Cyan{
         background: $Cyan;
+
+        
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            width: 354px;
+        height: 182px;
+        }
+        
 
         & img {
             width: 160px;
@@ -102,6 +142,14 @@
 
     @media screen and (min-width: map-get($breakpoint, tablette)) {
         display: flex;
+        gap: 24px 0px;
+    }
+
+    @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px 24px;
     }
 
 }
@@ -148,6 +196,11 @@
 
     @media screen and (min-width: map-get($breakpoint, tablette)) {
         flex-direction: row;
+        gap: 25px 25px;
+    }
+
+    @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+        flex-direction: column;
         gap: 25px 25px;
     }
 }

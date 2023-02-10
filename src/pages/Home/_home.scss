@@ -5,11 +5,19 @@
         margin-top: 64px;
     }
 
+    @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+        margin-top: 66px;
+    }
+
     &--headling{
         margin-bottom: 16px;
 
         @media screen and (min-width: map-get($breakpoint, tablette)) {
             margin-bottom: 27px;
+        }
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            margin-bottom: 23px;
         }
     }
 
@@ -19,5 +27,9 @@
         @media screen and (min-width: map-get($breakpoint, tablette)) {
             margin: 0px 80px 0px 80px;
         }
+
+        @media screen and (min-width: map-get($breakpoint, laptop-L)) {
+            margin: 0px 200px 0px 200px;
+         }
     }
 }
