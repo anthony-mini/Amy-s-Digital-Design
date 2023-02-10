@@ -1,0 +1,37 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 0px 15px;
+    overflow-x: hidden;
+    margin: 32px -16px 32px -16px;
+}
+
+.slider__left-image,
+.slider__center-image,
+.slider__right-image{
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.btnGallery{
+    display: flex;
+    justify-content: center;
+    gap: 0px 16px;
+
+    &--left,
+    &--right{
+        width: 64px;
+        height: 64px;
+        background-color: $Black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & img{
+            width: 14.81px;
+            height: 16px;
+        }
+    }
+}
