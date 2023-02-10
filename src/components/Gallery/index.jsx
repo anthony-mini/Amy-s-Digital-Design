@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ArrowLeft from '../../assets/icon-arrow-left.svg';
 import ArrowRight from '../../assets/icon-arrow-right.svg';
 
@@ -45,21 +46,27 @@ export default function Gallery() {
   return (
     <>
       <div className="gallery gallery--container">
-        <img
-          className="slider__left-image"
-          src={ArrayImg[(index + ArrayImg.length - 1) % ArrayImg.length].src}
-          alt={ArrayImg[(index + ArrayImg.length - 1) % ArrayImg.length].alt}
-        />
-        <img
-          className="slider__center-image"
-          src={ArrayImg[index].src}
-          alt={ArrayImg[index].alt}
-        />
-        <img
-          className="slider__right-image"
-          src={ArrayImg[(index + 1) % ArrayImg.length].src}
-          alt={ArrayImg[(index + 1) % ArrayImg.length].alt}
-        />
+        <Link to="/*">
+          <img
+            className="slider__left-image"
+            src={ArrayImg[(index + ArrayImg.length - 1) % ArrayImg.length].src}
+            alt={ArrayImg[(index + ArrayImg.length - 1) % ArrayImg.length].alt}
+          />
+        </Link>
+        <Link to="/*">
+          <img
+            className="slider__center-image"
+            src={ArrayImg[index].src}
+            alt={ArrayImg[index].alt}
+          />
+        </Link>
+        <Link to="/*">
+          <img
+            className="slider__right-image"
+            src={ArrayImg[(index + 1) % ArrayImg.length].src}
+            alt={ArrayImg[(index + 1) % ArrayImg.length].alt}
+          />
+        </Link>
       </div>
       <div className="btnGallery">
         <button onClick={previousPicture} className="btnGallery--left">
