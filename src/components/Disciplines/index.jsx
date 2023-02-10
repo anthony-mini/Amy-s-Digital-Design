@@ -17,18 +17,20 @@ export default function Disciplines() {
               <img src={Graphic} alt="illustration graphic design" />
             </div>
             <div className="bloc-1--container__1">
-              <div className="Cube Cube--S colors--Yellow">
-                <p>UI/UX</p>
-                <img src={UxUi} alt="illustration UI/UX" />
+              <div className='bloc-ui-app'>
+                <div className="Cube Cube--S colors--Yellow">
+                  <p>UI/UX</p>
+                  <img src={UxUi} alt="illustration UI/UX" />
+                </div>
+                <div className="Cube Cube--S colors--Pink">
+                  <p>Apps</p>
+                  <img src={Apps} alt="illustration apps" />
+                </div>
               </div>
-              <div className="Cube Cube--S colors--Pink">
-                <p>Apps</p>
-                <img src={Apps} alt="illustration apps" />
+              <div className="Cube Cube--M colors--Red">
+                <p>Illustration</p>
+                <img src={Illustration} alt="illustration" />
               </div>
-            </div>
-            <div className="Cube Cube--M colors--Red">
-              <p>Illustration</p>
-              <img src={Illustration} alt="illustration" />
             </div>
           </div>
         </div>
