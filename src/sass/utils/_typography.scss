@@ -14,16 +14,12 @@
     line-height: 40px;
 
     color: $Black;
+
+    @media screen and (min-width: map-get($breakpoint, tablette)) {
+      font-size: 44px;
+      line-height: 55px;
+  }
   
-    &--L {
-      font-size: 56px;
-      line-height: 71px;
-    }
-  
-    &--M {
-      font-size: 40px;
-      line-height: 50px;
-    }
 };
 
 .paragraph {

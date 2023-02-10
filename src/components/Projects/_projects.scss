@@ -3,6 +3,10 @@
     display: flex;
     flex-direction: column;
 
+    @media screen and (min-width: map-get($breakpoint, tablette)) {
+        margin-top: 120px;
+    }
+
     & h2 {
         font-style: normal;
         font-weight: 700;
@@ -11,5 +15,10 @@
         text-align: center;
 
         color: black;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            font-size: 32px;
+            line-height: 40px;
+        }
     }
 }

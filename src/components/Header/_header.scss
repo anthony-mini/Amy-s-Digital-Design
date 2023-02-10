@@ -6,5 +6,10 @@
     &--logo{
         width: 48px;
         height: 48px;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            width: 64px;
+            height: 64px;
+        }
     }
 }
