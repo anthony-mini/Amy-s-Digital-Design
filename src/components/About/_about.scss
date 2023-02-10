@@ -1,9 +1,33 @@
 .section-3{
     margin-top: 100px;
 
+    @media screen and (min-width: map-get($breakpoint, tablette)) {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        gap: 0px 69px;
+        margin-left: -65px;
+        margin: none;
+    }
+
+    &__bloc{
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 340px;
+        }
+    }
+
     & img {
         width: 300px;
         height: 300px;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            width: 364px;
+            height: 364px;
+        }
     }
 
     & h2 {
@@ -16,9 +40,19 @@
         color: $Black;
 
         margin-top: 40px;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            text-align: left;
+            font-size: 32px;
+            line-height: 40px;
+        }
     }
 
     & p{
         margin: 24px 0px 24px 0px;
+
+        @media screen and (min-width: map-get($breakpoint, tablette)) {
+            text-align: left;
+        }
     }
 }

@@ -12,6 +12,13 @@
 
     color: $White;
 
+    @media screen and (min-width: map-get($breakpoint, tablette)) {
+        width: 228px;
+        height: 56px;
+
+        font-size: 16px;
+    }
+
     &--1{
         background: $Black;
 
