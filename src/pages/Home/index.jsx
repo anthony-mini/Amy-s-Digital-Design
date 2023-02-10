@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 // import Button1 from '../../components/Button/Button_1';
 import Header from '../../components/Header';
+import Disciplines from '../../components/Disciplines';
 import Footer from '../../components/Footer';
+
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +21,7 @@ export default function Home() {
             your one-stop shop for your design needs.
           </p>
         </section>
+        <Disciplines />
       </main>
       <Footer />
     </React.Fragment>
