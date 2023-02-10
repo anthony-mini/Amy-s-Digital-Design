@@ -5,14 +5,15 @@
 
 @import './base/base';
 
-
-
 @import '../components/Header/header';
+@import '../components/Footer/footer';
+
 @import '../pages/Home/home';
+@import '../pages/Error/error';
+
 @import '../components/Disciplines/disciplines';
 @import '../components/About/about';
 @import '../components/Gallery/gallery';
 @import '../components/Projects/projects';
 @import '../components/BookMe/bookme';
-@import '../components/Footer/footer';
 @import '../components/Button/button';

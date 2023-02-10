@@ -1,0 +1,32 @@
+.Headling-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        color: $Black;
+        margin: 40px 10px 30px 10px;
+
+        & span{
+            line-height: 75px;
+        }
+     }
+}
+
+.section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & img{
+        width: 350px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
