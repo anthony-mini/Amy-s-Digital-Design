@@ -7,10 +7,11 @@
 // <h1 class="headling headling--S">Heading S</h1>
 
 .headling {
-    font: {
-        style: normal;
-        weight: 700;
-    };
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
 
     color: $Black;
   
@@ -23,17 +24,12 @@
       font-size: 40px;
       line-height: 50px;
     }
-  
-    &--S {
-      font-size: 32px;
-      line-height: 40px;
-    }
 };
 
 .paragraph {
     font-style: normal;
-    line-height: 28px;
+    line-height: 26px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: $MediumBrown;
 };
