@@ -1,0 +1,116 @@
+.section-2{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.Cube{
+    border-radius: 8px;
+    background: blue;
+    padding: 24px 24px;
+    color: $White;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+
+    &--S{
+        width: 159px;
+        height: 182px;
+
+        & img {
+            width: 64px;
+            height: 64px;
+        }
+    }
+
+    &--M{
+        height: 158px;
+        width: 343px;
+
+        & img {
+            width: 128px;
+            height: 64px;
+        }
+    }
+
+    &--L{
+        width: 343px;
+        height: 364px;
+
+        & img {
+            width: 128px;
+            height: 192px;
+        }
+    }
+}
+
+.colors{
+    &--Blue{
+        background: $GalacticBlue;
+    }
+
+    &--Yellow{
+        background: $SummerYellow;
+    }
+
+    &--Pink{
+        background: $Pink;
+    }
+
+    &--Red{
+        background: $LightRed;
+    }
+
+    &--Cyan{
+        background: $Cyan;
+
+        & img {
+            width: 160px;
+            height: 64px;
+        }
+    }
+
+    &--Purple{
+        background: $DarkPurple;
+    }
+}
+
+.Cube p {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.Cube img{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+// Cube Flex Position
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+}
+
+.bloc-1--container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+
+    &__1{
+        display: flex;
+        justify-content: center;
+        gap: 0px 25px;
+    }
+}
+
+.bloc-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0px;
+}
