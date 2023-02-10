@@ -3,8 +3,9 @@ import React, { useEffect } from 'react';
 import Header from '../../components/Header';
 import Disciplines from '../../components/Disciplines';
 import About from '../../components/About';
-import Footer from '../../components/Footer';
 import Projects from '../../components/Projects';
+import BookMe from '../../components/BookMe';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function Home() {
         <Disciplines />
         <About />
         <Projects />
+        <BookMe />
       </main>
       <Footer />
     </React.Fragment>
