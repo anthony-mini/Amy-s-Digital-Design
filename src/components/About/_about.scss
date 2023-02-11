@@ -15,8 +15,8 @@
     @media screen and (min-width: map-get($breakpoint, laptop-L)) {
         margin-top: 136px;
         gap: 0px 125px;
-        margin-left: 154px;
-        margin-right: 154px;
+        margin-left: 165px;
+        margin-right: 165px;
     }
 
     &__bloc{
@@ -85,7 +85,8 @@
         }
 
         @media screen and (min-width: map-get($breakpoint, laptop-L)) {
-            margin-right: 10px;
+
+            margin: 32px 10px 32px 0px;
         }
     }
 }
