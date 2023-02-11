@@ -4,6 +4,9 @@
     align-items: center;
     margin-top: 40px;
 
+    @media screen and (min-width: map-get($breakpoint, tablette)) {
+        margin-top: 56px;
+        
     &--logo{
         width: 48px;
         height: 48px;
@@ -12,5 +15,6 @@
             width: 64px;
             height: 64px;
         }
+     }
     }
 }

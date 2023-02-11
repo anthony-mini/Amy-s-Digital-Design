@@ -15,6 +15,8 @@
         padding: 81px 95px 80px 95px;
         display: flex;
         align-items: center;
+        height: 320px;
+        justify-content: space-between;
      }
 
     .BookMe-txt{
@@ -56,12 +58,14 @@
 
         @media screen and (min-width: map-get($breakpoint, tablette)) {
             line-height: 28px;
-            margin: 26px 50px 26px 50px;
+            margin: 26px 0px 26px 0px;
+            padding: 0px 22px;
+            width: 540px;
          }
 
          @media screen and (min-width: map-get($breakpoint, laptop-L)) {
             text-align: left;
-            padding-right: 100px;
+            padding: 0;
             margin-left: 0px;
             font-size: 18px;
          }
