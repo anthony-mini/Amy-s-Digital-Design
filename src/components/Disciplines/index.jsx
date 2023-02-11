@@ -8,7 +8,7 @@ import UxUi from '../../assets/pattern-ui-ux.svg';
 
 export default function Disciplines() {
   return (
-    <section className="section-2">
+    <div className="section-2">
       <div className="container">
         <div className="bloc-1">
           <div className="bloc-1--container">
@@ -17,7 +17,7 @@ export default function Disciplines() {
               <img src={Graphic} alt="illustration graphic design" />
             </div>
             <div className="bloc-1--container__1">
-              <div className='bloc-ui-app'>
+              <div className="bloc-ui-app">
                 <div className="Cube Cube--S colors--Yellow">
                   <p>UI/UX</p>
                   <img src={UxUi} alt="illustration UI/UX" />
@@ -45,6 +45,6 @@ export default function Disciplines() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
