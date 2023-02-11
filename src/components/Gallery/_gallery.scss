@@ -39,11 +39,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: background 0.2s ease-in-out;
+        
+        @media screen and (min-width: map-get($breakpoint, laptop)) {
+            transition: background 0.5s ease-in-out;
 
-        &:hover{
-            background-color: $GalacticBlue;
+            &:hover{
+                background-color: $GalacticBlue;
+            }
         }
+
+        &:active{
+            background-color: $GalacticBlue;
+        }        
 
         & img{
             width: 14.81px;
