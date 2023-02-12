@@ -27,9 +27,12 @@ Users should be able to:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
+- Hook
 - SASS
 - Flexbox
 - Mobile-first workflow
+- Yarn
+- Create-react-app
 
 ## Author
 
