@@ -1,0 +1,9 @@
+export { default as About } from './About';
+export { default as BookMe } from './BookMe';
+export { default as Button1 } from './Button/Button_1';
+export { default as Button2 } from './Button/Button_2';
+export { default as Disciplines } from './Disciplines';
+export { default as Footer } from './Footer';
+export { default as Gallery } from './Gallery';
+export { default as Header } from './Header';
+export { default as Projects } from './Projects';
