@@ -1,10 +1,5 @@
 import React from 'react';
-import Apps from '../../assets/pattern-apps.svg';
-import Graphic from '../../assets/pattern-graphic-design.svg';
-import Illustration from '../../assets/pattern-illustrations.svg';
-import MotionGraph from '../../assets/pattern-motion-graphics.svg';
-import Photography from '../../assets/pattern-photography.svg';
-import UxUi from '../../assets/pattern-ui-ux.svg';
+import { Apps, Graphic, Illustration, MotionGraph, Photography, UxUi } from '../../assets';
 
 export default function Disciplines() {
   return (

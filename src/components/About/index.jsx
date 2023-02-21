@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgProfil from '../../assets/image-amy.webp';
-import Button from '../../components/Button/Button_2';
+import { Button2 } from '../../components';
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
           designed everything from brand illustrations to complete mobile apps.
           I’m also handy with a camera!
         </p>
-        <Button />
+        <Button2 />
       </div>
     </section>
   );

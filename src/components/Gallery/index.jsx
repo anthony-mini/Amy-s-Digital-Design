@@ -2,38 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useSwipeable } from 'react-swipeable'; // import the hook from react-swipeable
-import ArrowLeft from '../../assets/icon-arrow-left.svg';
-import ArrowRight from '../../assets/icon-arrow-right.svg';
+import { ArrayImg } from '../../constants';
+import { ArrowLeft, ArrowRight } from '../../assets';
 
 export default function Gallery() {
-  const ArrayImg = [
-    {
-      id: 1,
-      src: require('../../assets/image-slide-1.jpg'),
-      alt: 'Image 1',
-    },
-    {
-      id: 2,
-      src: require('../../assets/image-slide-2.jpg'),
-      alt: 'Image 2',
-    },
-    {
-      id: 3,
-      src: require('../../assets/image-slide-3.jpg'),
-      alt: 'Image 3',
-    },
-    {
-      id: 4,
-      src: require('../../assets/image-slide-4.jpg'),
-      alt: 'Image 4',
-    },
-    {
-      id: 5,
-      src: require('../../assets/image-slide-5.jpg'),
-      alt: 'Image 5',
-    },
-  ];
-
   const [index, setIndex] = useState(0); // state to keep track of the current image index
 
   const nextPicture = () => {

@@ -1,11 +1,5 @@
 import React, { useEffect } from 'react';
-// import Button1 from '../../components/Button/Button_1';
-import Header from '../../components/Header';
-import Disciplines from '../../components/Disciplines';
-import About from '../../components/About';
-import Projects from '../../components/Projects';
-import BookMe from '../../components/BookMe';
-import Footer from '../../components/Footer';
+import { Header, About, Disciplines, Projects, BookMe, Footer } from '../../components';
 
 export default function Home() {
   useEffect(() => {

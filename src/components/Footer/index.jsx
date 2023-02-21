@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.svg';
-import Button from '../Button/Button_1';
+import { Button1 } from '../../components';
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
       <Link to="/">
         <img src={Logo} alt="logo" className="footer--logo" />
       </Link>
-      <Button />
+      <Button1 />
     </footer>
   );
 }

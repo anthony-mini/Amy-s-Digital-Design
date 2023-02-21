@@ -1,7 +1,6 @@
 import ErrorSvg from '../../assets/404-error-animate.svg';
 import React, { useEffect } from 'react';
-import Button2 from '../../components/Button/Button_2';
-import Header from '../../components/Header';
+import { Header, Button2 } from '../../components';
 
 export default function Error() {
   useEffect(() => {
